@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manajemen Buku API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Daftar Buku</h1>
+        
+        <div class="form-group">
+            <input type="text" id="titleInput" placeholder="Judul Buku" required>
+            <input type="text" id="authorInput" placeholder="Penulis" required>
+            <button onclick="addBook()">Tambah Buku</button>
+        </div>
+
+        <ul id="bookList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

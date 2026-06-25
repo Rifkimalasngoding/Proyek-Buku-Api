@@ -1,0 +1,12 @@
+{
+  "name": "proyek-buku-api",
+  "version": "1.0.0",
+  "description": "Website sederhana dengan RESTful API untuk manajemen buku",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
