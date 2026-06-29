@@ -10,3 +10,12 @@ Proyek ini adalah contoh aplikasi web sederhana yang mengimplementasikan RESTful
 4. Jalankan perintah instalasi dependensi:
    ```bash
    npm install
+   ```
+
+5. di start dulu npm nye:
+   ```bash
+   npm start
+   ```
+
+6. Buka aplikasi di browser:
+   http://localhost:3000
